@@ -1,0 +1,71 @@
+{
+  "title": "WCRP CCMI-1: UM-UKCA output following the CCMI refC1SD experiment protocol"
+  "description": "Model output for refC1SD experiment using version 7.3 of the Met Office Unified Model, based on the science version HadGEM3-A configuration (Hewitt et al.,2011, DOI:10.5194/gmd-4-223-2011) coupled with the United Kingdom Chemistry and Aerosol scheme. The simulation follows the experimental design of the IGAC/Stratosphere troposphere Processes And their Role in Climate (SPARC) Chemistry-Climate Model Initiative (CCMI) refC1SD experiment. This simulation spans 1979-2010, with emissions taken from MACCity (Granier et al., 2011, DOI:10.1007/s10584-011-0154-1), and uses prescribed sea surface temperatures and sea ice from HadISST (Rayner et al., 2003, DOI:10.1029/2002JD002670). Horizontal wind components (u and v) and potential temperature (θ) are nudged (following (Telford et al., 2008, DOI:10.5194/acp-8-1701-2008) to ERA-Interim Reanalysis data (Dee et al.,2011, DOI:10.1002/qj.828). The data comprise monthly mean output over the period 1979-2010 for ozone, ozone production and loss, and diagnostics suitable for the calculation of the tropospheric ozone budget.  We archive data from this experiment as HIST, and iIn order to assess the role of recent changes to the stratospheric ozone burden on the tropospheric ozone budget, a second integration (fODS_LBC) is archived  in which the lower boundary condition of all halogenated ODS was kept constant at 1979 values, but all other forcings and emissions were allowed to evolve as in the HIST experiment",
+  "authors": [
+    {
+      "firstname": "Paul",
+      "surname": "Griffiths"
+    },
+    {
+      "firstname": "James",
+      "surname": "Keeble"
+    },
+    {
+      "firstname": "Youngsub",
+      "surname": "Shin"
+    },
+    {
+      "firstname": "Luke",
+      "surname": "Abraham"
+    },
+    {
+      "firstname": "Alex",
+      "surname": "Archibald"
+    },
+    {
+      "firstname": "John",
+      "surname": "Pyle"
+    }
+  ],
+  "bbox": {
+    "north": "90",
+    "south": "-90°",
+    "east": "180.0000°",
+    "west": "-180.0000°"
+  },
+  "time_range": {
+    "start": "1979-01-01T00:00:00",
+    "end": "2010-01-01T23:59:59"
+  },
+  "lineage": "Data were generated using the Met Office Unified Model (UM) at N48 horizontal resolution over global domain.",
+  "quality": "Data are as given by the data provider, no quality control has been performed by the Centre for Environmental Data Analysis (CEDA)",
+  "docs": [
+    {
+      "title": "",
+      "url": ""
+    }
+  ],
+  "project": {
+    "catalogue_url": "",
+    "title": "ACCI- Atmospheric Chemistry-Climate Interactions",
+    "description": "ACCI was a ERC funded project",
+    "PI": {
+      "firstname": "John",
+      "lastname": "Pyle"
+    },
+    "funder": "ERC",
+    "grant_number": "267760"
+  },
+  "instrument": {
+    "catalogue_url": "",
+    "title": "",
+    "description": ""
+  },
+  "computation": {
+    "catalogue_url": "",
+    "title": "Met Office operational unified model (UM) deployed on ARCHER computer",
+    "description": "Met Office operational unified model (UM) deployed on ARCHER computer"
+  }
+}
+
+
