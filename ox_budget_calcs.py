@@ -2,7 +2,7 @@ import netCDF4 as nc
 import numpy as np
 from tropo_mask import tropo_mask_calc
 
-tropo_mask = tropo_mask_calc('HIST_Trophgt.nc')
+tropo_mask = np.load('HIST_Trophgt.npy')
 nyrs=2010-1979
 
 ncfile = nc.Dataset('HIST_ox_prod.nc')
